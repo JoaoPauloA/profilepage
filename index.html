@@ -2,190 +2,136 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JoaoPaulo</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Landing Page using HTML, CSS & Javascript</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
-    <!-- https://fonts.google.com/specimen/Open+Sans -->
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <!-- https://fontawesome.com/ -->
-    <link rel="stylesheet" href="css/fullcalendar.min.css">
-    <!-- https://fullcalendar.io/ -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- https://getbootstrap.com/ -->
-    <link rel="stylesheet" href="css/tooplate.css">
+  <!-- ==== STYLE.CSS ==== -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+  <!-- ====  REMIXICON CDN ==== -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 
-<body id="reportsPage">
-    <div class="" id="home">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="content-header">
-                    <nav class="navbar navbar-expand-xl navbar-light bg-light">
-                        <a class="navbar-brand" href="#">
-                            <h1 class="tm-site-title mb-0">João Paulo</h1>
-                                 <a class="nav-link" href="https://www.linkedin.com/in/jo%C3%A3o-paulo-ara%C3%BAjo-99348089/">LinkedIn</a>
-                                <a class="nav-link" href="https://www.researchgate.net/profile/Joao-Araujo-51">ResearchGate</a>
-                                
-                        </a>
-                        
-                        <button class="navbar-toggler ml-auto mr-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+<body>
+  <!-- ==== HEADER ==== -->
+  <header class="container header">
+    <!-- ==== NAVBAR ==== -->
+    <nav class="nav">
+      <div class="logo">
+        <h2>Fortaleza Humana e Inteligente</h2>
+      </div>
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mx-auto">
-                            </ul>
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link d-flex" href="#">
-                                        <i class="tm-logout-icon"><img src="./img/jp.jpg" width="100px"></i>
-                                        
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-                </div>
-            </div>
-            <!-- row -->
-            <div class="row tm-content-row tm-mt-big">
-                <div class="tm-col tm-col-big">
-                    <div class="bg-white tm-block">
-                        <!-- <i class="fab fa-java"></i> -->
-                        <h2 class="tm-block-title">Professional Experiences</h2>
-                        
-                        <ol class="tm-list-group tm-list-group-alternate-color tm-list-group-pad-big">
-                            <li class="tm-list-group-item">
-                                GREat
-                            </li>
-                            <li class="tm-list-group-item">
-                                Grupo Acert
-                            </li>
-                            <li class="tm-list-group-item">
-                                Sunne
-                            </li>
-                            <li class="tm-list-group-item">
-                                Nelogica
-                            </li>
-                            <li class="tm-list-group-item">
-                                NPDS(UFC Campus Crateús)
-                            </li>
-                            <li class="tm-list-group-item">
-                                CENTEC
-                            </li>
-                            
-                        </ol>
-                    </div>
-                </div>
-                <div class="tm-col tm-col-big">
-                    <div class="bg-white tm-block h-100" style="overflow-y: hidden;">
-                        <h2 class="tm-block-title">Known Programming Languages</h2>
-                        <canvas id="barChart"></canvas>
-                        <canvas id="pieChart" class="chartjs-render-monitor"></canvas>
-                    </div>
-                </div>
-                <div class="tm-col tm-col-small">
-                    <div class="bg-white tm-block">
-                        <h2 class="tm-block-title">Skills</h2>
-                        <ol class="tm-list-group tm-list-group-alternate-color tm-list-group-pad-big">
-                            <li class="tm-list-group-item" style="cursor:default">
-                                <i class="fab fa-java"></i> Spring
-                            </li>
-                            <li class="tm-list-group-item" style="cursor:default">
-                                <i class="fab fa-js-square"></i> Node
-                            </li>
-                            <li class="tm-list-group-item" style="cursor:default">
-                                <i class="fab fa-js-square"></i> React
-                            </li>
-                            <li class="tm-list-group-item" style="cursor:default">
-                                <i class="fab fa-git"></i> Git
-                            </li>
-                            <li class="tm-list-group-item" style="cursor:default">
-                                <i class="fab fa-gitlab"></i> Gitlab
-                            </li>
-                            </li>
-                            <li class="tm-list-group-item" style="cursor:default">
-                                <i class="fab fa-bitbucket"></i> Bitbucket
-                            </li>
-                            <li class="tm-list-group-item" style="cursor:default">
-                                <i class="fab fa-docker"></i> Docker
-                            </li>
-                            <li class="tm-list-group-item" style="cursor:default">
-                                <i class="fab fa-python"></i> Flask
-                            </li>
-                            <li class="tm-list-group-item" style="cursor:default">
-                                <i class="fab fa-js-square"></i> React Native
-                            </li>
-                            <li class="tm-list-group-item" style="cursor:default">
-                                <i class="fab fa-gitlab"></i> CI/CD
-                            </li>
-                            <li class="tm-list-group-item" style="cursor:default">
-                                <i class="fab fa-python"></i>  Brython
-                            </li>
-                            
-                            
-                        </ol>
-                    </div>
-                </div>
-        
-                </div>
-            
-<!--                     
-              
-            </div>
-            <footer class="row tm-mt-small">
-                <div class="col-12 font-weight-light">
-                   
-                     -->
-                </div>
-            </footer>
+      <div class="nav_menu" id="nav_menu">
+        <button class="close_btn" id="close_btn">
+          <!-- <i class="ri-close-fill"></i> -->
+        </button>
+        <!-- 
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">account</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">about</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">service</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">Contato</a>
+            </li>
+          </ul> -->
+      </div>
+
+      <button class="toggle_btn" id="toggle_btn">
+        <i class="ri-menu-line"></i>
+      </button>
+    </nav>
+  </header>
+
+  <section class="wrapper">
+    <div class="container">
+      <div class="grid-cols-2">
+        <div class="grid-item-1">
+          <h1 class="main-heading">
+            Seja bem-vindo ao <span>Fortaleza Humana e Inteligente</span>
+            <br />
+          </h1>
+          <p class="info-text">
+            Diagrama do Fortaleza Humana e Inteligente e seus impactos.
+          </p>
         </div>
-    </div>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <!-- https://jquery.com/download/ -->
-    <script src="js/moment.min.js"></script>
-    <!-- https://momentjs.com/ -->
-    <script src="js/utils.js"></script>
-    <script src="js/Chart.min.js"></script>
-    <!-- http://www.chartjs.org/docs/latest/ -->
-    <script src="js/fullcalendar.min.js"></script>
-    <!-- https://fullcalendar.io/ -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- https://getbootstrap.com/ -->
-    <script src="js/tooplate-scripts.js"></script>
-    <script>
-        let ctxLine,
-            ctxBar,
-            ctxPie,
-            optionsLine,
-            optionsBar,
-            optionsPie,
-            configLine,
-            configBar,
-            configPie,
-            lineChart;
-        barChart, pieChart;
-        // DOM is ready
-        $(function () {
-            updateChartOptions();
-            drawLineChart(); // Line Chart
-            drawBarChart(); // Bar Chart
-            drawPieChart(); // Pie Chart
-            drawCalendar(); // Calendar
+        <div class="grid-item-2">
+          <div class="team_img_wrapper">
+            <div class="graphContent">
+              <div class="graph">
+                <div class="node central">Fortaleza Humana e Inteligente</div>
+                <div class="node peripheral" data-index="1"><i class="fa-solid fa-laptop-code"></i></div>
+                <div class="node peripheral" data-index="2"><i class="fa-brands fa-pagelines"></i></div>
+                <div class="node peripheral" data-index="3"><i class="fas fa-user-shield"></i></div>
+                <div class="node peripheral" data-index="4"><i class="fa-solid fa-van-shuttle"></i></div>
+                <div class="node peripheral" data-index="5"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="node peripheral" data-index="6"><i class="fa-solid fa-heart"></i></div>
+                <div class="node peripheral" data-index="7"><i class="fa-solid fa-cube"></i></div>
+              </div>
+              <div id="modal" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <h2 id="modal-title">Título do Modal</h2>
+                  <p id="modal-text"></p>
+                </div>
+              </div>
+            </div>
 
-            $(window).resize(function () {
-                updateChartOptions();
-                updateLineChart();
-                updateBarChart();
-                reloadPage();
-            });
-        })
-    </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="wrapper">
+    <!-- <footer></footer> -->
+  </section>
+
+  <footer>
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-2">
+            <span class="iconSpan">
+              <i class="fa-solid fa-laptop-code"></i>&nbsp; Ciência, Tecnologia e Inovação<br/><br/>
+              <i class="fa-brands fa-pagelines"></i>&nbsp;Meio Ambiente<br/><br/>
+              <i class="fas fa-user-shield"></i>&nbsp;Segurança e Resiliência<br/><br/>
+              <i class="fa-solid fa-van-shuttle"></i>&nbsp; Infraestrutura e Mobilidade Sustentável<br/><br/>
+            </span>
+            </div>
+            <div class="grid-item-2">
+              <span class="iconSpan">
+                <i class="fa-solid fa-graduation-cap"></i>&nbsp;Educação e Capacitação<br/><br/>
+                <i class="fa-solid fa-heart"></i>&nbsp;Saúde e Bem-Estar<br/><br/>
+                <i class="fa-solid fa-cube"></i>&nbsp;Governança Criativa e Digital para Fortaleza<br/><br/>
+              </span>
+            </div>
+
+          </div>
+        </div>
+    </section>
+  </footer>
+
+  <!-- ==== ANIMATE ON SCROLL JS CDN -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- ==== GSAP CDN ==== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <!-- ==== SCRIPT.JS ==== -->
+  <script src="./script.js" defer></script>
 </body>
+
 </html>
